@@ -1,0 +1,28 @@
+{
+  "name": "s3-upload",
+  "version": "1.0.0",
+  "description": "Upload to S3 with parallelism and cache times",
+  "homepage": "https://github.com/abcnews/s3-upload#readme",
+  "bugs": {
+    "url": "https://github.com/abcnews/s3-upload/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcnews/s3-upload.git"
+  },
+  "license": "MIT",
+  "author": "Ash Kyd",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "commander": "^15.0.0",
+    "mime": "^4.1.1",
+    "minimatch": "^10.2.6",
+    "minio": "^8.0.7",
+    "ms": "^2.1.3"
+  }
+}
