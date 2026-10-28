@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as Minio from "minio";
 import fs from "fs/promises";
 import { createReadStream } from "fs";
